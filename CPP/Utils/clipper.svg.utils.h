@@ -13,11 +13,11 @@
 #include <string>
 #include "clipper2/clipper.h"
 #include "clipper.svg.h"
-#ifndef _WIN32
+//#ifndef _WIN32
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#endif
+//#endif
 
 namespace Clipper2Lib {
 

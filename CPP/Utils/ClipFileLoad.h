@@ -8,11 +8,11 @@
 #include <fstream>
 #include <string>
 #include "clipper2/clipper.h"
-#ifndef _WIN32
+//#ifndef _WIN32
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#endif
+//#endif
 
 inline bool FileExists(const std::string& name)
 {
